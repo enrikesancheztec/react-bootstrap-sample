@@ -8,10 +8,10 @@ import {BrowserRouter} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Menu />
-      <BrowserRouter>
-        <AppRoutes />
-      </BrowserRouter>
+        <Menu/>
+        <BrowserRouter>
+          <AppRoutes />
+        </BrowserRouter> 
     </div>
   );
 }
